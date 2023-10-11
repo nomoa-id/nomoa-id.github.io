@@ -200,12 +200,12 @@ ul, ol, li {
 	padding: 40px 12px 35px;
 	font-size: 14px;
 	line-height: 1.6;
-	color: #000000;
+	color: #000000 !important;
 	font-family: "Nunito Sans";
 	font-weight: 700;
 }
 .navbar-lg .navbar-nav > li > a:hover {
-	color: #000000;
+	color: #54af48 !important;
 }
 
 .navbar-contact {
