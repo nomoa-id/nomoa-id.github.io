@@ -4542,8 +4542,20 @@ input:focus, textarea:focus {
 
 @media only screen and (min-width: 280px)  and (max-width: 767px) {
 
-	.footer2 .footer-logo {
-		text-align: center;
+	
+	.about-inline h3 {
+		color: #54af48;
+		margin-bottom: 20px;
+		font-size: 30px;
+		line-height: 62px;
+		font-weight: 900;
+	}
+
+	.resp{
+		display: block;
+		margin-left: 100px;
+		margin-right: auto;
+		width: 50%;	
 	}
 	
 	.feature-icon {
@@ -4559,7 +4571,7 @@ input:focus, textarea:focus {
 
 	.footer2 .footer-social {
 		padding-left: 0;
-		margin: -24px 140px 22px;
+		margin: -30px 130px 5px;
 	}
 
 	.footer2 .col-md-4 {
@@ -4921,8 +4933,8 @@ input:focus, textarea:focus {
 	}
 
 	.intro1 h2 {
-		font-size: 56px;
-		margin: 50px 0 15px;
+		font-size: 40px;
+		margin: -50px 0 15px;
 	}
 
 	.review p {
@@ -5086,7 +5098,7 @@ input:focus, textarea:focus {
 	.navbar-lg .navbar-nav > li > a {
 		padding: 12px 30px;
 		font-size: 12px;
-		color: #fff !important;
+		color: #54af48 !important;
 	}
 
 	.navbar-toggle {
@@ -5102,6 +5114,9 @@ input:focus, textarea:focus {
 		border-radius: 70px;
 	}
 
+	/* .col-md-6 {
+		margin-top:-100px;
+	} */
 
 	.navbar-toggle .icon-bar {
 		display: block;
@@ -5136,9 +5151,9 @@ input:focus, textarea:focus {
 		border-top: none;
 		box-shadow: none;
 		position: absolute;
-		background: #000;
+		background: #fff;
 		color:#fff;
-		top: 80px;
+		top: 55px;
 		width: 100%;
 		max-width: 500px;
 		right: 0;
@@ -5232,7 +5247,7 @@ input:focus, textarea:focus {
 	}
 
 	footer {
-		padding: 60px 0 60px;
+		padding: 15px 0 10px;
 	}
 
 	.page_head h3 {
